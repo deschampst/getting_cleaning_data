@@ -1,7 +1,7 @@
 # Code Book for run_analysis.R
 
 The data analyzed in this script can be found here:
-* https://d396qusza40orc.cloudfront.net/getdata%2Fproject les%2FUCI%20HAR%20Dataset.zip
+* https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 and more information about the project can be found here:
 * http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
