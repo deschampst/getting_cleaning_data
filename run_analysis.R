@@ -90,7 +90,7 @@ newnames <- gsub("f", "FFT", newnames)
 names(data) <- newnames # assigns the new names to the data frame
 
 # write the data to a text file
-write.table(data, "cleandata.txt", col.names = TRUE)
+write.table(data, "cleandata.txt", col.names = TRUE, row.names = FALSE)
 
 
 ################################################################################
@@ -105,4 +105,4 @@ meltedData <- melt(data, id.vars = c("subject", "activity"))
 means <- dcast(meltedData, subject + activity ~ variable, mean)
 
 # write out the means
-write.table(means, file = "cleanmeans.txt", col.names = TRUE)
+write.table(means, "cleanmeans.txt", col.names = TRUE, row.names = FALSE)
